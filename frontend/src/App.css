@@ -22,3 +22,62 @@ input {
   border-bottom: 1px solid #2c3e50;
   padding: 5px;
 }
+
+
+.task{
+  background-color: #34495e;
+  padding: 15px;
+  margin: 5px;
+  overflow-x: hidden;
+  border-radius: 5px;
+  cursor: pointer;
+
+}
+
+.task span {
+  color: white;
+}
+
+.icon{
+  float: right;
+  margin-right: 20px;
+}
+
+article{
+  display: grid;
+}
+
+.edit-todo{
+  width: 85%;
+  font-size: 16px;
+  color: white;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid white ;
+}
+
+.button{
+  margin: 0 10px;
+  padding: 10px;
+  font-size: 14px;
+  color: #6c6777;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+  width: 100px;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+
+.button.selected{
+  color: white;
+  background-color: #6c6777;
+}
+
+.button.clear{
+  float: right;
+  color: white;
+  background-color: #ee1630;
+  width: 170px;
+}
+
